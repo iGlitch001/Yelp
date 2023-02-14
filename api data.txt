@@ -1,0 +1,4 @@
+phone  = bizDetailsPageProps.bizPortfolioProps.ctaProps.phone
+website = bizDetailsPageProps.bizPortfolioProps.ctaProps.website
+name = bizDetailsPageProps.businessName
+review_count = bizDetailsPageProps.reviewFeedQueryProps.reviewLanguages(list[count])
