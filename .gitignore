@@ -1,6 +1,9 @@
 Set-ExecutionPolicy -ExecutionPolicy Unr.txt
 .DS_Store
 
+*.csv
+*.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
