@@ -6,7 +6,6 @@ import json
 import csv
 import os.path
 import platform
-import logging
 from urllib.parse import unquote
 from playwright.sync_api import Playwright, sync_playwright, TimeoutError, Page
 
