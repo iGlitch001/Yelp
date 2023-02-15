@@ -77,7 +77,7 @@ def parse_biz_page(page: Page, url: str) -> dict:
     except TimeoutError:
         return None
 
-    for script in  scripts:
+    for script in scripts:
         script_text = script.inner_text()
         if "AggregateRating" in script_text:
             biz_json = json.loads(script_text)
