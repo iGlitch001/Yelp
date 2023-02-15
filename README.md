@@ -1,14 +1,24 @@
 "# Simple Yelp Scraper" 
 
+
+
 Installation
 
+
 pip install playwright
+
 playwright install
+
+
 
 Usage
 
+
 edit "STARTING_URL" in pw_scraper.py
+
 run python pw_scraper.py
+
+
 
 Description
 
