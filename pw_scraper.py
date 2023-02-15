@@ -131,6 +131,7 @@ def run(pwright: Playwright) -> None:
     my_user_agent = get_user_agent()
     context = browser.new_context(base_url=BASE_URL, user_agent=my_user_agent)
     page = context.new_page()
+    print(f"Visiting {STARTING_URL}")
     page.goto(STARTING_URL)
     urls = get_links(page)
     biz_details_list = []
