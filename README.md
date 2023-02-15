@@ -20,7 +20,7 @@ run python pw_scraper.py
 
 
 
-Description
+## DESCRIPTION
 
 The script is using playwright to vist the "STARTING_URL" page and scrape the urls
 of all the results excluding the sponspored results, after which the script will
